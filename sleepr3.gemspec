@@ -1,5 +1,5 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+require File.expand_path('../lib/sleepr/version', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sleepr3/version'
 
@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cayden Jacobs"]
   spec.email         = ["cayden.jacobs@yahoo.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A warning so people will logoff and go to bed!}
+  spec.description   = %q{Used to point out when people usinf our app are doing so after hours and should just got to sleep}
+  spec.homepage      = "http://github.com/caydn/sleepr3"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
