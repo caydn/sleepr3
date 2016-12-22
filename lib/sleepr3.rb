@@ -1,5 +1,7 @@
 require "sleepr3/version"
 
 module Sleepr3
-  # Your code goes here...
+  if Time.now.hour > 22
+    puts "Get off the Interwebs! Go to bed!"
+  end
 end
